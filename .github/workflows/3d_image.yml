@@ -14,7 +14,7 @@ jobs:
         with:
           pcb_file: usb-C-breakout.kicad_pcb
           output_path: ${{ github.workspace }}/images
-          zoom: 1.5
+          zoom: 1.0
 
       - name: Setup Pages
         if: github.ref == 'refs/heads/main'
